@@ -243,7 +243,7 @@ namespace Assignment_Session_2_Advanced_c_
                 queue.Enqueue(stack.Pop());
             }
 
-            foreach (var item in remainingList)
+            foreach (int item in remainingList)
             {
                 queue.Enqueue(item);
             }
